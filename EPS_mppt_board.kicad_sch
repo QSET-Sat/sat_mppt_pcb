@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "8f246f89-1ec7-4136-9977-839b50e116ed")
 	(paper "A3")
 	(title_block
@@ -1830,12 +1830,14 @@
 		(uuid "5a5f17a3-2754-48fd-882f-45364bd6d13b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.611 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -1852,12 +1854,14 @@
 		(uuid "7a973f27-4792-43c3-aea5-3c32a67dbeda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 370.84 174.919 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -1874,12 +1878,14 @@
 		(uuid "a119ff36-80ce-4856-a373-2c61d7844880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 375.92 174.919 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -1895,11 +1901,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "0b35a7b5-b504-4fbf-9bb2-d6dcd13c2d56")
 		(property "Sheetname" "I2C Mux"
 			(at 297.434 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,6 +1917,8 @@
 		)
 		(property "Sheetfile" "I2C.kicad_sch"
 			(at 297.18 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,11 +2056,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "154a146f-e13c-49ce-9bd5-d811e5485ce9")
 		(property "Sheetname" "PC104"
 			(at 27.686 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,6 +2072,8 @@
 		)
 		(property "Sheetfile" "PC104.kicad_sch"
 			(at 25.654 117.602 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,11 +2292,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "1cb04f15-5cd4-4c9d-a391-62735eda9253")
 		(property "Sheetname" "EPS Logic"
 			(at 167.64 254.5584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,6 +2308,8 @@
 		)
 		(property "Sheetfile" "MPPT_3.3V_logic.kicad_sch"
 			(at 167.64 271.0946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2400,7 @@
 		(instances
 			(project "EPS_mppt_board"
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed"
-					(page "1")
+					(page "13")
 				)
 			)
 		)
@@ -2399,11 +2417,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "3c4bc196-78b1-489d-9686-12ce4f1e3b6d")
 		(property "Sheetname" "3.3V and 5V Line"
 			(at 168.402 203.454 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,6 +2433,8 @@
 		)
 		(property "Sheetfile" "3.3V.kicad_sch"
 			(at 167.64 230.632 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,11 +2532,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "5683cac5-9988-4b0a-8935-fabef808a774")
 		(property "Sheetname" "Current Sensing and Fault Detection"
 			(at 297.18 245.364 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,6 +2548,8 @@
 		)
 		(property "Sheetfile" "Sensing.kicad_sch"
 			(at 297.434 242.062 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,11 +2708,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "61eb8b07-a516-4600-8bd8-c85438ae98cc")
 		(property "Sheetname" "External Watchdog IC"
 			(at 110.49 127.5584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,6 +2724,8 @@
 		)
 		(property "Sheetfile" "External Watchdog IC.kicad_sch"
 			(at 110.49 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,11 +2773,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "bc2f1682-e3ae-4ffc-84d8-70ef19ac3f89")
 		(property "Sheetname" "STM32L4"
 			(at 179.07 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,6 +2789,8 @@
 		)
 		(property "Sheetfile" "STM32L4.kicad_sch"
 			(at 179.578 84.582 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,11 +3098,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "cba64b11-23b0-44e2-88c6-aa38d0b150b4")
 		(property "Sheetname" "MPPT IC"
 			(at 340.868 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,6 +3114,8 @@
 		)
 		(property "Sheetfile" "MPPT_IC.kicad_sch"
 			(at 335.788 164.592 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

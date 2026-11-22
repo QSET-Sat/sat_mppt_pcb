@@ -5332,10 +5332,6 @@
 		)
 		(instances
 			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/1cb04f15-5cd4-4c9d-a391-62735eda9253"
-					(reference "U14")
-					(unit 1)
-				)
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/3c4bc196-78b1-489d-9686-12ce4f1e3b6d"
 					(reference "U14")
 					(unit 1)
