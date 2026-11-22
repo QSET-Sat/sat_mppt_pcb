@@ -6187,10 +6187,6 @@
 		)
 		(instances
 			(project "EPS_mppt_board"
-				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/154a146f-e13c-49ce-9bd5-d811e5485ce9"
-					(reference "Q8")
-					(unit 1)
-				)
 				(path "/8f246f89-1ec7-4136-9977-839b50e116ed/cba64b11-23b0-44e2-88c6-aa38d0b150b4/9c376570-7347-417d-82da-8820fe005a82"
 					(reference "Q12")
 					(unit 1)

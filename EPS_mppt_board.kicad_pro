@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -48,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -110,6 +128,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -127,6 +146,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -140,14 +160,18 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -187,6 +211,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -198,6 +223,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -209,6 +235,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -561,8 +588,7 @@
       "/I2C Mux/SDA_+X": "rgb(255, 85, 252)",
       "/I2C Mux/SDA_+Y": "rgb(255, 85, 252)",
       "/I2C Mux/SDA_-X": "rgb(255, 85, 252)",
-      "/I2C Mux/SDA_-Y": "rgb(255, 85, 252)",
-      "GND": "rgb(25, 255, 139)"
+      "/I2C Mux/SDA_-Y": "rgb(255, 85, 252)"
     },
     "netclass_assignments": {},
     "netclass_patterns": []
@@ -571,7 +597,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "C:/Users/Jaron/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
@@ -775,7 +801,7 @@
         "uuid": "8f246f89-1ec7-4136-9977-839b50e116ed"
       }
     ],
-    "used_designators": "#FLG12-13,#PWR89-91,#PWR220-239,C43,C111-118,Q16-17,R30-31,R40-41,R111-122,U7-8,U12,U22-25",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -826,10 +852,6 @@
     [
       "d3c38251-8867-43ee-adbe-0016c6c48bd2",
       "-Y_MPPT"
-    ],
-    [
-      "1cb04f15-5cd4-4c9d-a391-62735eda9253",
-      "EPS Logic"
     ],
     [
       "8098d618-bd6c-4693-adcd-9d298c7dc9e4",
